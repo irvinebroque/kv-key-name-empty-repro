@@ -1,0 +1,8 @@
+name = "kv-get-empty"
+main = "src/worker.ts"
+compatibility_date = "2023-09-29"
+
+# https://developers.cloudflare.com/workers/runtime-apis/kv
+[[kv_namespaces]]
+binding = "FOOO"
+id = "<ID>"
